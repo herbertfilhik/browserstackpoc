@@ -1,0 +1,9 @@
+pipeline {
+    stages {
+        stage('BrowserStack Execution'){
+            steps{
+                sh '/var/lib/jenkins/workspace/pocbrowserstack/devops/executetest.sh'
+            }
+        }
+    }
+}
