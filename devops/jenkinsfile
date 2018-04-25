@@ -1,6 +1,6 @@
 pipeline {
     stages {
-        stage('BrowserStack Execution'){
+        stage('BrowserStack Execution by JenkinsFile'){
             steps{
                 sh '/var/lib/jenkins/workspace/pocbrowserstack/devops/executetest.sh'
             }
