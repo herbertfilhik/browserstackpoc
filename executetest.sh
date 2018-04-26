@@ -1,2 +1,2 @@
-cd /var/lib/jenkins/workspace/TestePipe
+cd /opt/slackmessenger/DuSlackMessage
 python3 messenger.py -c "testeapi" -m "Teste - Slack"
