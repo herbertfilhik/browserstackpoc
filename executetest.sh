@@ -1,10 +1,10 @@
-cd /var/lib/jenkins/workspace/pocbrowserstack
+cd /var/lib/jenkins/workspace/TestePipe-BrowserStack
 gem install bundler
 
-cd /var/lib/jenkins/workspace/pocbrowserstack
+cd /var/lib/jenkins/workspace/TestePipe-BrowserStack
 bundle install
 
-cd /var/lib/jenkins/workspace/pocbrowserstack
+cd /var/lib/jenkins/workspace/TestePipe-BrowserStack
 cucumber -t @validar_carrinho -f json -o relatorios/cucumber-json-report.json
 
 cd /opt/slackmessenger/DuSlackMessage
